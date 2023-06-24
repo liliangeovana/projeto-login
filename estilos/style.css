@@ -5,3 +5,30 @@ Paleta de cores
     Marrom: #EB952D
     Escuro: #9E5E0F
 */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #9E5E0F;
+}
+
+section{
+    background-color: aqua;
+    max-height: 95vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#formulario{
+    background-color: white;
+
+}
+
+div#formulario h1, p{
+    padding: 10px;
+}
