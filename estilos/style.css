@@ -1,64 +1,102 @@
 @charset "UTF-8";
 
-/*
-Paleta de cores
-    Marrom: #EB952D
-    Escuro: #9E5E0F
-*/
+
 *{
     font-family: Arial, Helvetica, sans-serif;
-}
-
-body{
     margin: 0px;
     padding: 0px;
-    background-color: #9E5E0F;
+}
+body{
+    background-color: #dba66698;
 }
 
 main{
-    min-width: 260px;
-    height: 500px;
-    background: rgba(165, 42, 42, 0.354) url(../imagens/login.jpeg) top right fixed;
-    background-size: cover;
+    background-color: bisque;
+    width: 280px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 20px;
-}
-section{
-    display: flex;
-}
-section#login{
-    flex-direction: column;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.288);
     border-radius: 20px;
 }
 
+
+
 div#img{
     height: 200px;
-    border-radius: 20px 20px 0px 0px; 
+    background: brown url(../imagens/login.jpeg) center top fixed;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
 }
-
 
 div#formulario{
-    padding: 0px 15px 20px 15px;
-    height: 300px;
-    background-color:white;
+    background-color: white;
+    padding: 10px;
     border-radius: 0px 0px 20px 20px;
-    
 }
 
-h1{
-    text-align: center;
-}
-
-div#formulario .subtitulo{
+h1, div#formulario .subtitulo{
     text-align: center;
 }
 
 div#formulario p {
     text-align: justify;
+    margin: 10px;
+    line-height: 1.5;
 }
+
+
+label{
+    display: inline-block;
+    width: -webkit-fill-available;
+    background-color: #4a2a03d7;
+    margin: 3px 0px;
+    border-radius: 15px;
+    padding: 5px 0px;
+    
+}
+
+.texto{
+    height: 35px;
+    width: 220px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+#lock, #person{
+    vertical-align: middle;
+    color: white;
+    padding-left: 5px;
+}
+
+.botao{
+    display: block;
+    width: -webkit-fill-available;
+    height: 40px;
+    margin: 2px 0px;
+    border-radius: 5px; 
+}
+
+
+#botao-entrar{
+    background-color: #c07b26d7; 
+}
+
+#botao-senha{
+    background-color: #c07b262e; 
+}
+
+#carta {
+    font-size: 18px;
+    vertical-align: middle;
+    color: #764304d7;
+}
+
+
+
+
+
+
 
 
