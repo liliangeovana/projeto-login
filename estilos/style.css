@@ -16,18 +16,20 @@ body{
 }
 
 main{
-    min-width: 400px;
+    min-width: 260px;
+    height: 500px;
+    background: brown url(../imagens/login.jpg) top left fixed;
+    background-size: cover;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 20px;
 }
 section{
     display: flex;
 }
 section#login{
-    
-    height: 500px;
     flex-direction: column;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.288);
     border-radius: 20px;
@@ -35,8 +37,7 @@ section#login{
 
 div#img{
 height: 200px;
-background: brown url(../imagens/login.jpg) center center fixed;
-background-size: cover;
+
 border-radius: 20px 20px 0px 0px; 
 box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.288);
 }
@@ -54,7 +55,12 @@ h1{
     text-align: center;
 }
 
+div#formulario .subtitulo{
+    text-align: center;
+}
+
 div#formulario p {
     text-align: justify;
 }
+
 
