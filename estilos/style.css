@@ -18,7 +18,7 @@ body{
 main{
     min-width: 260px;
     height: 500px;
-    background: brown url(../imagens/login.jpg) top left fixed;
+    background: rgba(165, 42, 42, 0.354) url(../imagens/login.jpeg) top right fixed;
     background-size: cover;
     position: absolute;
     top: 50%;
@@ -36,10 +36,8 @@ section#login{
 }
 
 div#img{
-height: 200px;
-
-border-radius: 20px 20px 0px 0px; 
-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.288);
+    height: 200px;
+    border-radius: 20px 20px 0px 0px; 
 }
 
 
