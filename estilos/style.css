@@ -25,7 +25,7 @@ main{
 
 div#img{
     height: 200px;
-    background: brown url(../imagens/login.jpeg) center top fixed;
+    background: #4a2a03d7 url(../imagens/login.jpeg) center top fixed;
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
 }
