@@ -25,7 +25,8 @@ main{
 
 div#img{
     height: 200px;
-    background: #4a2a03d7 url(../imagens/login.jpeg) center top fixed;
+    width: auto;
+    background: #4a2a03d7 url(../imagens/login.jpeg) top center fixed;
     background-size: cover;
     border-radius: 20px 20px 0px 0px;
 }
@@ -75,16 +76,21 @@ label{
     width: -webkit-fill-available;
     height: 40px;
     margin: 2px 0px;
+    border: 0px;
     border-radius: 5px; 
 }
 
 
+
 #botao-entrar{
-    background-color: #c07b26d7; 
+    background-color: #c07b26d7;
+    color: black;
+    font-weight: bolder;
 }
 
 #botao-senha{
-    background-color: #c07b262e; 
+    background-color: #eca34b59;
+    font-weight: bolder;
 }
 
 #carta {
