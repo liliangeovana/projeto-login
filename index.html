@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+
     <link rel="stylesheet" href="estilos/style.css" media="all">
+
+    <link rel="stylesheet" href="estilos/media-query.css">
     
 </head>
 <body>
@@ -15,37 +19,38 @@
             </div>
             <div id="formulario">
                 <h1>Login</h1>
-                <p class="subtitulo">
+                <p id="subtitulo">
                     Seja bem-vindo(a) novamente.
                 </p>
 
                 <p>
-                    Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
+                     Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
                 </p>
 
                 <form action="login.php" method="post" autocomplete="on">
 
-                    <label for="email">
 
-                        <span id="person" class="material-icons">person
-                        </span>
 
-                        <input class="texto" type="text" name="email" id="iemail" required autocomplete="email">
+                        <div class="campo"> 
+                            <span id="person" class="material-icons">person</span>
 
-                    </label>
+                            <input type="text" name="email" id="iemail" required autocomplete="email" placeholder=" E-mail" maxlength="30">
+                            <label for="email">Login</label>
+                        </div>
         
-                    <label for="senha">
-                        <span id="lock" class="material-icons">lock
-                        </span>
-                        <input class="texto" type="password" name="senha" id="isenha" required>
-                    </label>
+                   
+                        <div class="campo">
+                            <span id="lock" class="material-icons">lock</span>
+
+                            <input type="password" name="senha" id="isenha" required placeholder=" Senha" autocomplete="current-password" maxlength="20">
+                            <label for="senha">Senha</label>
+                        </div>
                   
-                    <button id="botao-entrar" class="botao" type="submit">Entrar</button>
+                    <input type="submit" value="Enviar">
     
-                    <button id="botao-senha" class="botao" type="submit">Esqueci a senha 
-                        <span id="carta" class="material-icons">mail</span>
-                    </button>
-                        
+                    <a class="botao" href="esqueci.html">
+                        Esqueci a senha <span id="carta" class="material-icons">mail</span>
+                    </a>    
                 </form>
             </div>
         </section>
