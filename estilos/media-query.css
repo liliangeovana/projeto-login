@@ -18,10 +18,27 @@
         margin-top: 20%;
         margin-right: 5%;
     }
+
+    div.campo > input{
+     width: 88%;
+    }
+    
 }
 
 @media screen and (min-width: 992px){
     section#login{
-        width: 990px;
+        font-size: 1.1em;
+        width: 700px;
+        height: 500px;
     }
+
+    div#formulario p {
+        text-align: center;
+    }
+
+    div.campo > input{
+        font-size: 1.1em;
+        height: 75%;
+        width: 92%;
+       }
 }
