@@ -19,8 +19,8 @@
         margin-right: 5%;
     }
 
-    div.campo > input{
-     width: 88%;
+    div.campo {
+     text-align: center;
     }
     
 }
@@ -36,9 +36,12 @@
         text-align: center;
     }
 
+    div.campo {
+        text-align: center;
+    }
+
     div.campo > input{
         font-size: 1.1em;
-        height: 75%;
-        width: 92%;
        }
+    
 }
